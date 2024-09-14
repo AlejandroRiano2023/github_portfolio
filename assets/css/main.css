@@ -1272,8 +1272,15 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  .container-fluid {
+    padding-left: 0; /* Elimina el padding izquierdo */
+    padding-right: 0; /* Elimina el padding derecho */
+    width: 100%; /* Asegura que el contenedor use el ancho completo */
+  }
+  
   .education {
     padding: 60px 0;
+    background-color: #f8f9fa; /* Cambia esto si deseas otro color de fondo */
   }
   
   .education-item {
@@ -1282,10 +1289,12 @@ section,
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 100%; /* Asegura que el elemento use todo el ancho disponible */
+    box-sizing: border-box;
   }
   
   .education-item img {
-    max-width: 50px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
     height: auto;
     margin-bottom: 15px;
   }
@@ -1312,6 +1321,6 @@ section,
   
   .education-item ul li {
     margin-bottom: 5px;
-  }  
+  }
 }
 
