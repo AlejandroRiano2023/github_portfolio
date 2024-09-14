@@ -512,7 +512,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -1277,7 +1277,7 @@ section,
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 2000px; /* Define el ancho en píxeles que desees */
   }
   
   .education {
@@ -1290,7 +1290,7 @@ section,
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     width: 100%;
     box-sizing: border-box;
   }
@@ -1325,11 +1325,6 @@ section,
     margin-bottom: 5px;
   }
 
-  /* Reduce el margen inferior del encabezado en la sección de educación */
-.section-title {
-  margin-bottom: 10px; /* Ajusta según sea necesario */
-}
-
 /* Reduce el margen superior de la imagen en la sección de educación */
 .education-item img {
   margin-top: 10px; /* Ajusta según sea necesario */
@@ -1347,5 +1342,13 @@ section,
   height: auto; /* Mantiene la proporción de la imagen */
 }
 
+.logo-wrapper {
+  text-align: center; /* Center-aligns the image inside this container */
+  margin-bottom: 20px; /* Optional: add space below the logo */
+}
+
+.logo-wrapper img {
+  display: inline-block; /* Ensure the image is treated as an inline element */
+}
 }
 
