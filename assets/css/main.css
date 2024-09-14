@@ -1282,6 +1282,7 @@ section,
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    width: 100%; /* Asegura que el elemento use todo el ancho disponible */
   }
   
   .education-item img {
@@ -1311,6 +1312,24 @@ section,
   
   .education-item ul li {
     margin-bottom: 5px;
+  }
+  
+  /* Asegúrate de que el contenedor de la sección ocupe todo el ancho disponible */
+  .education .container {
+    max-width: 100%; /* Elimina el ancho máximo si está establecido */
+    padding-left: 0; /* Elimina el padding izquierdo */
+    padding-right: 0; /* Elimina el padding derecho */
+  }
+  
+  /* Asegúrate de que los elementos dentro de la sección se alineen correctamente */
+  .education .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .education .col-lg-6 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   
 }
