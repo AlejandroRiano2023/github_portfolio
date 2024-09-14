@@ -1335,5 +1335,17 @@ section,
   margin-top: 10px; /* Ajusta según sea necesario */
 }
   
+.research-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Asegura que el texto también esté centrado */
+}
+
+.research-item img {
+  max-width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
 }
 
