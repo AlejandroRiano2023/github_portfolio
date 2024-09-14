@@ -1288,7 +1288,7 @@ section,
   }
   
   .education-item img {
-    max-width: 150px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
     height: auto;
     margin-bottom: 15px;
   }
