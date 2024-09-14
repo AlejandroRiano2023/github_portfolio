@@ -1273,14 +1273,16 @@ section,
 .starter-section {
   /* Add your styles here */
   .container-fluid {
-    padding-left: 0; /* Elimina el padding izquierdo */
-    padding-right: 0; /* Elimina el padding derecho */
-    width: 100%; /* Asegura que el contenedor use el ancho completo */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   
   .education {
     padding: 60px 0;
-    background-color: #f8f9fa; /* Cambia esto si deseas otro color de fondo */
+    background-color: #f8f9fa;
   }
   
   .education-item {
@@ -1289,12 +1291,12 @@ section,
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    width: 100%; /* Asegura que el elemento use todo el ancho disponible */
+    width: 100%;
     box-sizing: border-box;
   }
   
   .education-item img {
-    max-width: 100px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+    max-width: 100px;
     height: auto;
     margin-bottom: 15px;
   }
@@ -1322,5 +1324,6 @@ section,
   .education-item ul li {
     margin-bottom: 5px;
   }
+  
 }
 
